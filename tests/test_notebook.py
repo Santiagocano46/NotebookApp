@@ -18,6 +18,7 @@ if class_notebook_defined:
 
 @pytest.fixture
 def note():
+
     return Note(1, "note 1", "note 1 text", Note.HIGH)
 
 
